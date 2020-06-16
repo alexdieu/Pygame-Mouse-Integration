@@ -5,7 +5,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((800, 600))
 
-pygame.display.set_caption("World War III")
+pygame.display.set_caption("Draw")
 icon = pygame.image.load('icon.jpg')
 pygame.display.set_icon(icon)
 playerImg = pygame.image.load('cursor.png')
