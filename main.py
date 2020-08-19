@@ -6,9 +6,9 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 pygame.display.set_caption("Draw")
-icon = pygame.image.load('icon.jpg')
+icon = pygame.image.load('icon.png')
 pygame.display.set_icon(icon)
-playerImg = pygame.image.load('cursor.png')
+playerImg = pygame.image.load('picture.png')
 
 running = True
 while running:
